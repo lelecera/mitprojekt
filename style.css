@@ -122,4 +122,91 @@ nav .icon-burger .line {
 body {
     font-family: 'Roboto', sans-serif;
 }
+.overskrift h1 {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.overskrift p {
+    margin-left: 190px;
+    margin-bottom: 40px;
+}
 
+/* medlemskab kasserne */ 
+.container {
+    padding: 10px;
+}
+.price .item {
+    padding: 50px 15px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.price .type h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.price .value {
+    margin-bottom: 30px;
+}
+
+.price .value h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+.price .value h3 span {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: -10px;  
+}
+.price .features {
+    margin-bottom: 30px;
+}
+.price .features li{
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 12px;
+}
+.price .features li:last-child{
+    margin-bottom: 0;
+}
+.price .active {
+    box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.5);
+    background-color: #005075;
+    background: linear-gradient(linear, left top, left bottom, from(#005075), to( #02a1ca));
+    background: linear-gradient(to bottom, #005075, #02a1ca);
+    color: white;
+}
+.price .active .features li {
+    color: #eee;   
+}
+.price .active .butn span {
+    color: #fff;
+}
+.price .butn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+}
+.price .butn span {
+    font-size: 12px;
+}
+.butn-bg {
+    background: #050753;
+    border-color: #005075;
+    color: white;
+}
+span a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    font-size: bold;
+}
+ul {
+    margin-left: -40px;
+}
