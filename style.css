@@ -111,3 +111,42 @@ nav .icon-burger .line {
         opacity: 0;
     }
 }
+
+/* Jonas */
+
+.banner-tekstjonas { ;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 18% 26%;
+    text-align: center;
+}
+.banner-tekstjonas h3 {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.banner-tekstjonas h3 span {
+    color: aqua;
+}
+.banner-tekstjonas p {
+    color: black;
+    font-size: 18px;
+    line-height: 2;
+}
+.banner-tekstjonas a {
+    border: 1px solid #333;
+    color: #333;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.banner-tekstjonas a:hover{
+    background: aqua;
+}
+
+
