@@ -169,4 +169,56 @@ nav .icon-burger .line {
     nav :checked ~ .icon-burger .line:nth-child(2) {
         opacity: 0;
     }
+
+/*style i media kontskt side*/
+
+.kontaktbillede {
+    background-image: url(./Billeder/kontakt.jpeg);
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.tekstfelt {
+    font-family: 'roboto', sans-serif;
+    font-size: small;
+}
+
+    /*kontakt indformationer*/
+
+.adresse {
+    display: flex;
+    flex-direction: row;
+    color: #005075;
+    justify-content: space-evenly;
+    
+}
+
+.telefon {
+  display: flex;
+  flex-direction: row;
+  color: #005075;
+  justify-content: space-evenly;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  color: #005075;
+  justify-content: space-evenly;
+
+}
+
+
+.hel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 70px;
+    font-family: 'roboto', sans-serif;
+    
+
+}
 }
