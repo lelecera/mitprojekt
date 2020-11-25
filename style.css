@@ -130,16 +130,16 @@ nav .icon-burger .line {
     color: aqua;
 }
 .banner-tekstjonas p {
-    color: black;
-    font-size: 18px;
+    color: aqua;
+    font-size: 28px;
     line-height: 2;
 }
 .banner-tekstjonas a {
-    border: 1px solid #333;
-    color: #333;
+    border: 1px solid #ffffff;
+    color: aqua;
     display: inline-block;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 28px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 25px;
