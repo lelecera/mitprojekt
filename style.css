@@ -111,7 +111,7 @@ nav .icon-burger .line {
         opacity: 0;
     }
 }
-/* julies style*/
+/* julies styling*/
 :root {
     --brand-primary: #005075;
     --brand-secondary: #a8c3cd;
@@ -125,13 +125,13 @@ body {
 /* overskrift */
 .overskrift h1 {
     margin-left: 19rem;
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 40px;
 }
 .overskrift p {
-    font-size: 25px;
+    font-size: 19px;
     margin-left: 19rem;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 /* overskrift slut */
 /* medlemskab kasserne */ 
@@ -227,13 +227,13 @@ margin-top: 15px;
     margin-top: 5px;
     text-align: center;
     justify-content: space-around;
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 150px;
 }
 .benefits {
     font-size: 40px;
-    margin-left: 19rem;
-    margin-top: 60px;
+    margin-left: 11rem;
+    margin-top: 80px;
 }
 .ikons img {
     margin: 25px 0px 10px;
@@ -246,4 +246,41 @@ margin-top: 15px;
     vertical-align: middle;
     padding: 32px;
     position: relative;
+}
+/* ikoner slut */
+/* spørgsmål afsnit */
+.color-background {
+    padding: 20px 11rem;
+    background-color: #A8C3CD;
+    padding-bottom: 50px;
+
+}
+.color-background h1 {
+    font-size: 40px;
+}
+.spørgsmål {
+    display: flex;
+    justify-content: space-between;
+}
+.space {
+    padding-right: 90px;
+}
+.spørgsmål h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.spørgsmål p {
+    font-size: 16px;
+}
+.call-service {
+    padding-top: 100px;
+}
+.call-service h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.call-service p {
+    font-size: 15px;
+    text-align: center;
 }
