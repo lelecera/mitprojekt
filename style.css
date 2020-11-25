@@ -1,8 +1,28 @@
 html,
 body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #333333;
     height: 100%;
     padding: 0;
     margin:height: 0;
+    background-image:url('../billeder/dame.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.text-wrapper h1 {
+    text-align: center;
+    color: #ffffff;
 }
 
 nav {
@@ -73,6 +93,26 @@ nav .icon-burger .line {
     transition: all .3s ease-in-out;
 }
 
+/* Knap */
+
+.btn {
+    padding: .5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.btn-big {
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+.btn:hover {
+    color: white !important;
+    background: #00525;
+}
+
 .page-wrapper {
     min-height: 100%;
 }
@@ -88,7 +128,6 @@ nav .icon-burger .line {
 }
 
 .footer .footer-content {
-    border: 1px solid red;
     height: 350px;
     display: flex;
 }
@@ -96,7 +135,6 @@ nav .icon-burger .line {
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
-    border: 1px solid white;
 }
 
 .footer .footer-content h1, 
@@ -151,8 +189,16 @@ nav .icon-burger .line {
     color: #bebdbd;
     margin-bottom: 10px;
     line-height: 1.5em;
-    padding: .7rem 1.2rem;
+    padding: .9rem 1.4rem;
     border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .contact-btn {
+    float: right;
 }
 
 .footer .footer-bottom {
