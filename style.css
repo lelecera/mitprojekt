@@ -111,3 +111,14 @@ nav .icon-burger .line {
         opacity: 0;
     }
 }
+/* julies style*/
+:root {
+    --brand-primary: #005075;
+    --brand-secondary: #a8c3cd;
+    --brand-tertiary: #02a1ca;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
