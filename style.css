@@ -283,3 +283,118 @@ margin-top: 15px;
     font-size: 15px;
     text-align: center;
 }
+/*break point */
+@media screen and (max-width: 1203px) {
+
+    /* overskrift */
+.overskrift h1 {
+    margin-left: 9rem;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.overskrift p {
+    font-size: 19px;
+    margin-left: 9rem;
+    margin-bottom: 45px;
+}
+/* overskrift slut */
+
+.price .item {
+    padding: 50px 15px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+  }
+  .price .type h4 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+  }
+  .price .value {
+      margin-bottom: 30px;
+  }
+  .price .value h3 {
+      font-size: 50px;
+      display: inline-block;
+      position: relative;
+      font-weight: bold;
+  }
+  .price .value h3 span {
+      font-size: 12px;
+      position: absolute;
+      top: 0;
+      left: -10px;
+  }
+  .price .features {
+      margin-bottom: 30px;
+  }
+  .price .features li {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 12px;
+  }
+  .price .features li:last-child {
+      margin-bottom: 0;
+  }
+  .price .active .features li{
+      color: #eee;
+  }
+  .price .active .butn span {
+      color: white;
+  }
+  .price .butn {
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: white;
+  }
+  .price .butn span {
+      font-size: 12px;
+  }
+  .butn-bg {
+      background: var(--brand-primary);
+      border-color: var(--brand-primary);
+      color: white;
+  }
+  span a {
+      display: inline-block;
+      text-decoration: none;
+  }
+  ul li {
+      list-style: none;
+      font-weight: bold;    
+  }
+  ul {
+      margin-left: -40px;
+  }
+  /* medlemskab kasserne slut */
+/* tekst under medlemskab kasserne */
+
+.extra-text .extra{
+    margin-left: 9rem;
+    margin-top: 15px;
+    }
+}
+/*mobil break points */
+@media screen and (max-width: 810px) {
+    /*ikoner*/
+    .ikons {
+        flex-direction: column;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .ikons img {
+        margin: 25px 0px 10px;
+        background: rgba(168, 195, 205, 0.151);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 100px;
+        vertical-align: middle;
+        padding: 30px;
+    }
+    .spørgsmål {
+        flex-direction: column;
+    }
+}
