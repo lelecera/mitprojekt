@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="normalize.css">
     <title>GoEasy | Priser</title>
 </head>
@@ -35,34 +36,38 @@
 </div>
 <!--Menu slut-->
 <!--medlemskab kasser-->
-    <section class="abonnement-text">
-        <header class="priser-overskrift">
-            <h1>Medlemskaber</h1>
-            <p>Har du ofte brug for at blive kørt til en aftale, eller kun en gang i mellem?
-                Tjek vores liste med medlemskaber for at se hvilket der passer dig bedst.</p>
-        </header>
-    </section>
+<section>
+    <header class="overskrift">
+        <h1>Medlemskaber</h1>
+        <p>Har du ofte brug for at blive kørt til en aftale, eller kun en gang i mellem?
+            Tjek vores liste med medlemskaber for at se hvilket der passer dig bedst.</p>
+    </header>
+</section>
 <section class="price section-padding bg-gray">
     <div class="container">
-        <div class="pricing-table text-center full-width">
+        <div class="pricing-tables text-center full-width">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="item">
                         <div class="type">
-                            <h4>Måned</h4>
+                            <h4>Gratis prøveperiode</h4>
                         </div>
                         <div class="value">
-                            <h3><span>kr</span>2.016</h3>
-                            <span class="per">/Måned</span>
+                           <h3><span>kr</span>00</h3>
+                           <span class="per">/3 uger</span> 
                         </div>
                         <div class="features">
                             <ul>
-                                <li>Ubegrænset ture<br></li>
-                                <li>Inkl. 60 km<br></li>
+                                <li>Prøv vores service i 3 uger for 0 kr*</li>
+                                <li><br></li>
+                                <li>Du får alle fordelene -</li>
+                                <li>som der er i vores måned medlemskab</li>
+                                <li><br></li>
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="" class="butn butn-bg"><span class="butn-bg">Køb Nu</span>
+                            <a href="" class="butn butn-bg">
+                                <span class="butn-bg">Køb nu</span>
                             </a>
                         </div>
                     </div>
@@ -70,21 +75,49 @@
                 <div class="col-lg-3">
                     <div class="item">
                         <div class="type">
-                            <h4>Halvårligt </h4>
+                            <h4>Måndligt</h4>
                         </div>
                         <div class="value">
-                            <h3><span>kr</span>10.080</h3>
-                            <span class="per">/halvårligt</span>
+                           <h3><span>kr</span>2.016</h3>
+                           <span class="per">/Måned</span> 
                         </div>
                         <div class="features">
                             <ul>
-                                <li>Ubegrænset ture<br></li>
-                                <li>Inkl. 60 km <br></li>
+                                <li>Ubegrænset ture</li>
+                                <li><br></li>
+                                <li>Inkl. 60 km</li>
+                                <li><br></li>
+                                <li><br></li>
+                            </ul>
+                        </div>
+                        <div class="order">
+                            <a href="" class="butn butn-bg">
+                                <span class="butn-bg">Køb nu</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="item active">
+                        <div class="type">
+                            <h4>Halvårligt</h4>
+                        </div>
+                        <div class="value">
+                           <h3><span>kr</span>10.080</h3>
+                           <span class="per">/Halvårligt</span> 
+                        </div>
+                        <div class="features">
+                            <ul>
+                                <li>Ubegrænset ture</li>
+                                <li><br></li>
+                                <li>Inkl. 360 km</li>
+                                <li><br></li>
                                 <li>Et måned gratis</li>
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="" class="butn butn-bg"><span class="butn-bg">Køb Nu</span>
+                            <a href="" class="butn butn-bg">
+                                <span class="butn-bg">Køb nu</span>
                             </a>
                         </div>
                     </div>
@@ -95,23 +128,26 @@
                             <h4>Årligt</h4>
                         </div>
                         <div class="value">
-                            <h3><span>kr</span>18.144</h3>
-                            <span class="per">/Årligt</span>
+                           <h3><span>kr</span>18.144</h3>
+                           <span class="per">/Årligt</span> 
                         </div>
                         <div class="features">
                             <ul>
-                                <li>Ubegrænset ture<br></li>
-                                <li>Inkl. 60 km</li>
-                                <li>Tre måneder gratis<br></li>
+                                <li>Ubegrænset ture</li>
+                                <li><br></li>
+                                <li>Inkl. 720 km</li>
+                                <li><br></li>
+                                <li>Tre måneder gratis</li>
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="" class="butn butn-bg"><span class="butn-bg">Køb Nu</span>
+                            <a href="" class="butn butn-bg">
+                                <span class="butn-bg">Køb nu</span>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>        
         </div>
     </div>
 </section>
@@ -121,7 +157,8 @@
     <p>Ekstra km koster 6 kr pr. km.
         Vi tilbyder at dele betalingen op i flere
         bider, så du slipper for at betale alt lige
-        nu og her.</p>
+        nu og her.<br>
+        *Gælder kun nye medlemmer</p>
         <div class="ikons">
             <p class="benefits">Fordelen ved at vælge os</p>
             <img src="./billeder/user-tie-solid.svg" alt="ikon">
