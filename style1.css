@@ -5,7 +5,8 @@ body {
     color: #333333;
     height: 100%;
     padding: 0;
-    margin:height: 0;
+    margin: 0;
+    height: 0 px;
     background-image:url('../billeder/volvogoeasy1.jpg');
     background-size: cover;
 }
@@ -110,8 +111,7 @@ nav .icon-burger .line {
  
 .btn:hover {
     color: white !important;
-    background: #00525;
-}
+    background: #005250; }
  
 .page-wrapper {
     min-height: 100%;
