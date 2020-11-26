@@ -19,18 +19,13 @@ body {
     color: #333333;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto; 
     background-image:url('../billeder/dame.jpg');
     background-size: cover;
-    
-        width: 100%;
-        position: relative;
-    
-    
-    
-        text-align: center;
-        color: #ffffff;
-    
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
 }
 
 a {
