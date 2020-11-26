@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    background-image: url(/Billeder/volvogoeasy1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -114,10 +117,10 @@ nav .icon-burger .line {
 
 /* Jonas */
 
-.banner-tekstjonas { ;
+.banner-tekstjonas {
     position: absolute;
-    width: 600px;
-    height: 300px;
+    width: Auto;
+    height: Auto;
     margin: 18% 26%;
     text-align: center;
 }
@@ -127,16 +130,16 @@ nav .icon-burger .line {
     font-size: 60px;
 }
 .banner-tekstjonas h3 span {
-    color: aqua;
+    color: #005075;
 }
 .banner-tekstjonas p {
-    color: aqua;
+    color: #005075;
     font-size: 28px;
     line-height: 2;
 }
 .banner-tekstjonas a {
-    border: 1px solid #ffffff;
-    color: aqua;
+    border: 1px solid #005075;
+    color: #ffffff;
     display: inline-block;
     margin-top: 20px;
     font-size: 28px;
@@ -146,7 +149,11 @@ nav .icon-burger .line {
 }
 
 .banner-tekstjonas a:hover{
-    background: aqua;
+    background-color: #005075;
 }
 
-
+.banner-tekstjonas {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
