@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333333;
+    margin-top: .5em;
+}
+
+nav .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .links li {
+    list-style: none;
+}
+
+nav .links a {
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+}
+
+#nav-toggle {
+    position: absolute;
+    top: -100px;
+}
+
+nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #707070;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .links {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    nav .links a {
+        font-size: 20px;
+    }
+    nav :checked ~ .links {
+        bottom: 0;
+    }
+    nav .icon-burger {
+        display: block;
+    }
+    nav :checked ~ .icon-burger .line:nth-child(1) {
+        transform: translateY(10px) rotate(225deg);
+    }
+    nav :checked ~ .icon-burger .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-225deg);
+    }
+    nav :checked ~ .icon-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+}
+/* julies styling*/
+:root {
+    --brand-primary: #005075;
+    --brand-secondary: #a8c3cd;
+    --brand-tertiary: #02a1ca;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* overskrift */
+.overskrift h1 {
+    margin-left: 19rem;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.overskrift p {
+    font-size: 19px;
+    margin-left: 19rem;
+    margin-bottom: 45px;
+}
+/* overskrift slut */
+/* medlemskab kasserne */ 
+.container {
+    padding: 0.625rem;
+}
+.price .item {
+    padding: 50px 15px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.price .type h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.price .value {
+    margin-bottom: 30px;
+}
+
+.price .value h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+.price .value h3 span {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: -10px;  
+}
+.price .features {
+    margin-bottom: 30px;
+}
+.price .features li{
+    font-size: 13px;
+    color: rgb(48, 45, 45);
+    margin-bottom: 12px;
+}
+.price .features li:last-child{
+    margin-bottom: 0;
+}
+.price .active {
+    box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.5);
+    background-color: #005075;
+    background: linear-gradient(linear, left top, left bottom, from(#005075), to( #02a1ca));
+    background: linear-gradient(to bottom, #005075, #02a1ca);
+    color: white;
+}
+.price .active .features li {
+    color: #eee;   
+}
+.price .active .butn span {
+    color: #fff;
+}
+.price .butn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+}
+.price .butn span {
+    font-size: 12px;
+}
+.butn-bg {
+    background: #050753;
+    border-color: #005075;
+    color: white;
+}
+span a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    font-weight: bold;
+}
+ul {
+    margin-left: -40px;
+}
+/* medlemskab kasserne slut */
+/* tekst under medlemskab kasserne */
+
+.extra-text .extra{
+margin-left: 19rem;
+margin-top: 15px;
+}
+/* ikoner */
+.ikons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+.benefits {
+    font-size: 40px;
+    margin-left: 11rem;
+    margin-top: 80px;
+}
+.ikons img {
+    margin: 25px 0px 10px;
+    background: rgba(168, 195, 205, 0.151);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 32px;
+    position: relative;
+}
+/* ikoner slut */
+/* spørgsmål afsnit */
+.color-background {
+    padding: 20px 11rem;
+    background-color: #A8C3CD;
+    padding-bottom: 50px;
+
+}
+.color-background h1 {
+    font-size: 40px;
+}
+.spørgsmål {
+    display: flex;
+    justify-content: space-between;
+}
+.space {
+    padding-right: 90px;
+}
+.spørgsmål h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.spørgsmål p {
+    font-size: 16px;
+}
+.call-service {
+    padding-top: 100px;
+}
+.call-service h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.call-service p {
+    font-size: 15px;
+    text-align: center;
+}
+/*break point */
+@media screen and (max-width: 1203px) {
+
+    /* overskrift */
+.overskrift h1 {
+    margin-left: 9rem;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.overskrift p {
+    font-size: 19px;
+    margin-left: 9rem;
+    margin-bottom: 45px;
+}
+/* overskrift slut */
+
+.price .item {
+    padding: 50px 15px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+  }
+  .price .type h4 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+  }
+  .price .value {
+      margin-bottom: 30px;
+  }
+  .price .value h3 {
+      font-size: 50px;
+      display: inline-block;
+      position: relative;
+      font-weight: bold;
+  }
+  .price .value h3 span {
+      font-size: 12px;
+      position: absolute;
+      top: 0;
+      left: -10px;
+  }
+  .price .features {
+      margin-bottom: 30px;
+  }
+  .price .features li {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 12px;
+  }
+  .price .features li:last-child {
+      margin-bottom: 0;
+  }
+  .price .active .features li{
+      color: #eee;
+  }
+  .price .active .butn span {
+      color: white;
+  }
+  .price .butn {
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: white;
+  }
+  .price .butn span {
+      font-size: 12px;
+  }
+  .butn-bg {
+      background: var(--brand-primary);
+      border-color: var(--brand-primary);
+      color: white;
+  }
+  span a {
+      display: inline-block;
+      text-decoration: none;
+  }
+  ul li {
+      list-style: none;
+      font-weight: bold;    
+  }
+  ul {
+      margin-left: -40px;
+  }
+  /* medlemskab kasserne slut */
+/* tekst under medlemskab kasserne */
+
+.extra-text .extra{
+    margin-left: 9rem;
+    margin-top: 15px;
+    }
+}
+/*mobil break points */
+@media screen and (max-width: 810px) {
+    /*ikoner*/
+    .ikons {
+        flex-direction: column;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .ikons img {
+        margin: 25px 0px 10px;
+        background: rgba(168, 195, 205, 0.151);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 100px;
+        vertical-align: middle;
+        padding: 30px;
+    }
+    .spørgsmål {
+        flex-direction: column;
+    }
+}
+/* julies styling slut */
