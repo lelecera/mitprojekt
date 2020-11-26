@@ -1,0 +1,247 @@
+/* julies styling*/
+:root {
+    --brand-primary: #005075;
+    --brand-secondary: #a8c3cd;
+    --brand-tertiary: #02a1ca;
+}
+ 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* overskrift */
+.overskrift h1 {
+    margin-left: 19rem;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.overskrift p {
+    font-size: 19px;
+    margin-left: 19rem;
+    margin-bottom: 45px;
+}
+/* overskrift slut */
+/* medlemskab kasserne */ 
+.container {
+    padding: 0.625rem;
+}
+.price .item {
+    padding: 50px 15px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.price .type h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.price .value {
+    margin-bottom: 30px;
+}
+ 
+.price .value h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+.price .value h3 span {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: -10px;  
+}
+.price .features {
+    margin-bottom: 30px;
+}
+.price .features li{
+    font-size: 13px;
+    color: rgb(48, 45, 45);
+    margin-bottom: 12px;
+}
+.price .features li:last-child{
+    margin-bottom: 0;
+}
+.price .active {
+    box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.5);
+    background-color: #005075;
+    background: linear-gradient(linear, left top, left bottom, from(#005075), to( #02a1ca));
+    background: linear-gradient(to bottom, #005075, #02a1ca);
+    color: white;
+}
+.price .active .features li {
+    color: #eee;   
+}
+.price .active .butn span {
+    color: #fff;
+}
+.price .butn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+}
+.price .butn span {
+    font-size: 12px;
+}
+.butn-bg {
+    background: #050753;
+    border-color: #005075;
+    color: white;
+}
+span a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    font-weight: bold;
+}
+ul {
+    margin-left: -40px;
+}
+/* medlemskab kasserne slut */
+/* tekst under medlemskab kasserne */
+ 
+.extra-text .extra{
+margin-left: 19rem;
+margin-top: 15px;
+}
+/* ikoner */
+.ikons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+.benefits {
+    font-size: 40px;
+    margin-left: 11rem;
+    margin-top: 80px;
+}
+.ikons img {
+    margin: 25px 0px 10px;
+    background: rgba(168, 195, 205, 0.151);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 32px;
+    position: relative;
+}
+/* ikoner slut */
+/* spørgsmål afsnit */
+.color-background {
+    padding: 20px 11rem;
+    background-color: #A8C3CD;
+    padding-bottom: 50px;
+ 
+}
+.color-background h1 {
+    font-size: 40px;
+}
+.spørgsmål {
+    display: flex;
+    justify-content: space-between;
+}
+.space {
+    padding-right: 90px;
+}
+.spørgsmål h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.spørgsmål p {
+    font-size: 16px;
+}
+.call-service {
+    padding-top: 100px;
+}
+.call-service h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.call-service p {
+    font-size: 15px;
+    text-align: center;
+}
+/*break point */
+@media screen and (max-width: 1203px) {
+ 
+    /* overskrift */
+.overskrift h1 {
+    margin-left: 9rem;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.overskrift p {
+    font-size: 19px;
+    margin-left: 9rem;
+    margin-bottom: 45px;
+}
+/* overskrift slut */
+ 
+.price .item {
+    padding: 50px 15px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+  }
+  .price .type h4 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+  }
+  .price .value {
+      margin-bottom: 30px;
+  }
+  .price .value h3 {
+      font-size: 50px;
+      display: inline-block;
+      position: relative;
+      font-weight: bold;
+  }
+  .price .value h3 span {
+      font-size: 12px;
+      position: absolute;
+      top: 0;
+      left: -10px;
+  }
+  .price .features {
+      margin-bottom: 30px;
+  }
+  .price .features li {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 12px;
+  }
+  .price .features li:last-child {
+      margin-bottom: 0;
+  }
+  .price .active .features li{
+      color: #eee;
+  }
+  .price .active .butn span {
+      color: white;
+  }
+  .price .butn {
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: white;
+  }
+  .price .butn span {
+      font-size: 12px;
+  }
+  .butn-bg {
+      background: var(--brand-primary);
+      border-color: var(--brand-primary);
+      color: white;
+  }
+  span a {
+      display: inline-block;
+      text-decoration: none;
