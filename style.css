@@ -9,8 +9,28 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    
+    background-size: cover;
+}
+
+.dame {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #333333;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     background-image:url('../billeder/dame.jpg');
     background-size: cover;
+    
+        width: 100%;
+        position: relative;
+    
+    
+    
+        text-align: center;
+        color: #ffffff;
+    
 }
 
 a {
@@ -28,7 +48,7 @@ a {
     color: #ffffff;
 }
 
-* {
+.bagbillede {
     padding: 0;
     margin: 0;
     background-image: url(/Billeder/volvogoeasy1.jpg);
@@ -465,7 +485,6 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image:url('../billeder/volvogoeasy1.jpg');
     background-size: cover;
 }
  
