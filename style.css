@@ -3,6 +3,9 @@
 body {
     padding: 0;
     margin: 0;
+    background-image: url(/Billeder/volvogoeasy1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -458,56 +461,47 @@ margin-top: 15px;
     nav :checked ~ .icon-burger .line:nth-child(2) {
         opacity: 0;
     }
-
-/*style i media kontskt side*/
-
-.kontaktbillede {
-    background-image: url(./Billeder/kontakt.jpeg);
-    height: 25rem;
-    width: 100%;
-    background-size: cover;
-    background-position: top;
-
 }
 
-.tekstfelt {
-    font-family: 'roboto', sans-serif;
-    font-size: small;
+/* Jonas */
+
+.banner-tekstjonas {
+    position: absolute;
+    width: Auto;
+    height: Auto;
+    margin: 18% 26%;
+    text-align: center;
 }
-
-    /*kontakt indformationer*/
-
-.adresse {
-    display: flex;
-    flex-direction: row;
+.banner-tekstjonas h3 {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.banner-tekstjonas h3 span {
     color: #005075;
-    justify-content: space-evenly;
-    
+}
+.banner-tekstjonas p {
+    color: #005075;
+    font-size: 28px;
+    line-height: 2;
+}
+.banner-tekstjonas a {
+    border: 1px solid #005075;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
 }
 
-.telefon {
-  display: flex;
-  flex-direction: row;
-  color: #005075;
-  justify-content: space-evenly;
+.banner-tekstjonas a:hover{
+    background-color: #005075;
 }
 
-.email {
-  display: flex;
-  flex-direction: row;
-  color: #005075;
-  justify-content: space-evenly;
-
-}
-
-
-.hel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 70px;
-    font-family: 'roboto', sans-serif;
-    
-
-}
-}
+.banner-tekstjonas {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
